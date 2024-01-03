@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+@media only screen and (min-width: 720px) {
+
+    #sl1 ul{
+        justify-content: center;
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+
+    
+}
+
+.tittop{
+    font-family: poppins;
+    padding: 0.5em 0;
+    background-color: rgb(189, 189, 189);
+    color: rgb(102, 102, 102);
+    font-size: 0.65rem;
+}
+
+.tit{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.8%; 
+    background: #A4241B;
+    padding: 0.75em 0;
+    font-size: 0.65rem;
+    text-align: center;
+}
+
+#sl1{
+    background-image: url(mg_img/13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2em;
+}
+
+
+#sl1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 0.85rem;
+    backdrop-filter: blur(1.75px);
+   
+
+
+    
+
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    box-shadow: 0px 0px 8.3px 0px #393939;
+
+}
+.cnt{
+    width: 75%;
+    background-color: white;
+    padding: 0.5em;
+    color: #4D4D4D;
+    font-family: Abhaya Libre;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.8%; 
+    justify-content: center;
+    text-align: center;
+}
+
+
+.midd{
+    color: #717171;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.8%;
+    margin-top: 1em; 
+    /* 19.76px */
+}
+
+.btnhold{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background: #A4241B;
+    font-size: 0.95rem;
+    font-family: "Poppins";
+    color: white;
+    width: fit-content;
+    margin-top: 1em;
+    padding:0.45em 2em;
+    cursor: pointer;
+
+}
+
+#sl2{
+    /* background-color: rgb(206, 206, 206); */
+    height: max-content;
+    padding: 2em 1em;
+    margin-top: 2em;
+}
+
+#sl2 .head{
+    background: linear-gradient(133deg, #D22F24 25.67%, #C9841C 101.01%);
+    padding: 0.3em 0.75em;
+    font-family: "poppins";
+    color: white;
+    text-align: center;
+
+}
+.pdlul{
+    display: flex;
+    gap: 1em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    margin-top: 1em;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 100%;
+    box-shadow: 0px 0px 8.3px 0px #393939;
+
+} 
+.ctop{
+    display: flex;
+    justify-content: center;
+}
+.cmid{
+    text-align: center;
+}
+.cbtn{
+    margin-top: 1em;
+    border-radius: 6px;
+background: #1E1E1E;
+margin: 0.5em;
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 98.8%; /* 19.76px */
+font-size: 0.95rem;
+padding: 1em ;
+text-align: center;
+cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+Footer{
+    background-color: #000;
+   padding: 2em;
+
+}
+
+.tit{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+    background-color: #0000003a;
+
+}
+
+.cntft{
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+Footer .left,Footer .right{
+    width: 50%;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-family: 'Poppins';
+    text-align: left;
+    background-color: #000
+}
+
+Footer .right{
+    text-align: right;
+    padding-right: 2em;
+}
+a{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.copyright {
+    font-family: 'poppins';
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    font-size: 14px;
+    color: #555;
+  }
+
+
+
+
